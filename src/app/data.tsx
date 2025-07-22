@@ -12,7 +12,7 @@ import {
   Instagram,
 } from "lucide-react";
 
- export const socialNetworks = [
+export const socialNetworks = [
   {
     id: 1,
     logo: <Linkedin size={30} strokeWidth={1} />,
@@ -84,7 +84,6 @@ export const dataAboutPage = [
   },
 ];
 
-
 export const dataCounter = [
   {
     id: 0,
@@ -105,23 +104,24 @@ export const dataCounter = [
 const CounterStats = () => {
   return (
     <section className="grid grid-cols-2 md:grid-cols-4 gap-8 py-20">
-      {dataCounter.map(({ id, endCounter, text, lineRight, lineRightMobile }) => (
-        <div
-          key={id}
-          className={`text-center ${
-            lineRight ? "md:border-r md:pr-6" : ""
-          } ${lineRightMobile ? "border-r pr-4" : ""}`}
-        >
-          <h3 className="text-4xl font-bold text-pink-500">{endCounter}+</h3>
-          <p className="mt-2 text-gray-700">{text}</p>
-        </div>
-      ))}
+      {dataCounter.map(
+        ({ id, endCounter, text, lineRight, lineRightMobile }) => (
+          <div
+            key={id}
+            className={`text-center ${lineRight ? "md:border-r md:pr-6" : ""} ${
+              lineRightMobile ? "border-r pr-4" : ""
+            }`}
+          >
+            <h3 className="text-4xl font-bold text-pink-500">{endCounter}+</h3>
+            <p className="mt-2 text-gray-700">{text}</p>
+          </div>
+        )
+      )}
     </section>
   );
 };
 
 export default CounterStats;
-
 
 export const serviceData = [
   {
@@ -151,7 +151,7 @@ export const serviceData = [
 ];
 
 export const dataPortfolio = [
- {
+  {
     id: 1,
     title: "E-commerce Platform",
     image: "/image-1.jpg",
@@ -165,47 +165,54 @@ export const dataPortfolio = [
     urlGithub: "https://github.com/Steven0319/Portfolio.git",
     urlDemo: "https://portfolio-steven.netlify.app",
   },
-  
+
   {
-    id: 4,
+    id: 3,
     title: "Weather App Interactive",
     image: "/image-4.jpg",
     urlGithub: "https://github.com/Steven0319/Weather-APP.git",
     urlDemo: "https://weatherapp-stevenapp.netlify.app/",
   },
   {
-    id: 5,
+    id: 4,
     title: "Store Platform",
     image: "/image-5.jpg",
     urlGithub: "https://github.com/Steven0319/My-first-store.git",
     urlDemo: "https://storeapp-steven.netlify.app/",
   },
   {
-    id: 6,
+    id: 5,
     title: "Booking App",
     image: "/image-6.jpg",
     urlGithub: "https://github.com/Steven0319/Booking-App.git",
     urlDemo: "https://example.com/booking-app",
   },
   {
-    id: 7,
+    id: 6,
     title: "Banking Page",
     image: "/image-7.jpg",
     urlGithub: "https://github.com/Steven0319/Landing-Page-Banking.git",
     urlDemo: "https://steven-bank.netlify.app/",
   },
   {
-    id: 8,
+    id: 7,
     title: "Real Estate Page",
     image: "/image-8.jpg",
     urlGithub: "https://github.com/Steven0319/Real-Estate-Page.git",
     urlDemo: "https://stevenrealestate.netlify.app/",
   },
   {
-    id: 9,
+    id: 8,
     title: "Web-Responsive",
     image: "/image-9.jpg",
     urlGithub: "https://github.com/Steven0319/Web-Responsive.git",
     urlDemo: "https://steventech.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "Dashboard",
+    image: "/image-10.jpg",
+    urlGithub: "https://github.com/Steven0319/Dashboard.git",
+    urlDemo: "https://dashboard-zeta-blue.vercel.app/",
   },
 ];
