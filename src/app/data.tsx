@@ -208,4 +208,13 @@ export const dataPortfolio = [
     urlGithub: "https://github.com/Steven0319/Web-Responsive.git",
     urlDemo: "https://steventech.netlify.app/",
   },
+  
+  {
+    id: 9,
+    title: "Store-Website",
+    image: "/image-10.jpg",
+    urlGithub: "https://github.com/Steven0319/Store-Website.git",
+    urlDemo: "https://store-website-qps3.onrender.com/",
+  },
+
 ];
