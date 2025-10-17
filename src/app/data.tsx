@@ -167,61 +167,45 @@ export const dataPortfolio = [
   },
 
   {
-    id: 4,
+    id: 3,
     title: "Weather App Interactive",
     image: "/image-4.jpg",
     urlGithub: "https://github.com/Steven0319/Weather-APP.git",
     urlDemo: "https://weatherapp-stevenapp.netlify.app/",
   },
   {
-    id: 5,
+    id: 4,
     title: "Store Platform",
     image: "/image-5.jpg",
     urlGithub: "https://github.com/Steven0319/My-first-store.git",
-    urlDemo: "https://stevenstore.netlify.app/",
+    urlDemo: "https://storeapp-steven.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Booking App",
+    image: "/image-6.jpg",
+    urlGithub: "https://github.com/Steven0319/Booking-App.git",
+    urlDemo: "https://example.com/booking-app",
   },
   {
     id: 6,
-    title: "Construction Website",
-    image: "/image-6.jpg",
-    urlGithub: "https://github.com/Steven0319/construction-website.git",
-    urlDemo: "https://construction-website-silk.vercel.app/",
-  },
-  {
-    id: 7,
     title: "Banking Page",
     image: "/image-7.jpg",
     urlGithub: "https://github.com/Steven0319/Landing-Page-Banking.git",
     urlDemo: "https://steven-bank.netlify.app/",
   },
   {
-    id: 8,
+    id: 7,
     title: "Real Estate Page",
     image: "/image-8.jpg",
     urlGithub: "https://github.com/Steven0319/Real-Estate-Page.git",
     urlDemo: "https://stevenrealestate.netlify.app/",
   },
   {
-    id: 9,
+    id: 8,
     title: "Web-Responsive",
     image: "/image-9.jpg",
     urlGithub: "https://github.com/Steven0319/Web-Responsive.git",
     urlDemo: "https://steventech.netlify.app/",
   },
-  {
-    id: 10,
-    title: "Dashboard",
-    image: "/image-10.jpg",
-    urlGithub: "https://github.com/Steven0319/Dashboard.git",
-    urlDemo: "https://dashboard-zeta-blue.vercel.app/",
-  },
-  
-  {
-    id: 11,
-    title: "Store-Website",
-    image: "/image-10.jpg",
-    urlGithub: "https://github.com/Steven0319/Store-Website.git",
-    urlDemo: "https://store-website-qps3.onrender.com/",
-  },
-
 ];
